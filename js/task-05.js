@@ -1,5 +1,6 @@
-document.getElementById('name-input').addEventListener('input', function () {
-    var inputValue = this.value;
+    let inputVal = document.getElementById('name-input').addEventListener('input')
+    function input (inputVal) {
+    var inputValue = this.value.trim();
     var nameOutput = document.getElementById('name-output');
 
     if (inputValue === "") {
@@ -7,4 +8,4 @@ document.getElementById('name-input').addEventListener('input', function () {
     } else {
         nameOutput.innerText = inputValue;
     }
-});
+};
