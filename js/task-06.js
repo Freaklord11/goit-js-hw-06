@@ -1,4 +1,4 @@
-inputText = document.getElementById("validation-input");
+let inputText = document.getElementById("validation-input");
 
 inputText.addEventListener('blur', checkText);
 
