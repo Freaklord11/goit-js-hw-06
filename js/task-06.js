@@ -6,6 +6,6 @@ function checkText(){
   inputText = this.value.trim();
 
   if (inputText.length === 6){
-    
+    inputText.id = "validation-input.valid";
   };
 };
